@@ -1,0 +1,39 @@
+body {
+    background-color: #404040;
+    height: 100vh;
+    color: rgb(255, 253, 251);
+}
+nav {
+    background-color: rgb(41, 41, 41);
+    padding: 15px;
+    align-content: space-between;
+    align-content: center;
+}
+.navigation {
+    display: inline-flex;
+    margin: 5px;
+    padding: 10px;
+}
+.navigation:hover {
+    background-color: #131313;
+}
+main {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    color: black;
+    background-color: azure;
+}
+.sidebar {
+    display: grid;
+    align-content: space-around;
+}
+.side {
+    padding: 5px;
+}
+.side:hover {
+    background-color: orangered;
+}
+.content {
+    margin: 10px;
+}
