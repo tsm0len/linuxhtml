@@ -3,6 +3,9 @@ body {
     height: 100vh;
     color: rgb(255, 253, 251);
 }
+.page {
+    height: 100%;
+}
 nav {
     background-color: rgb(41, 41, 41);
     padding: 15px;
@@ -17,6 +20,13 @@ nav {
 .navigation:hover {
     background-color: #131313;
 }
+header {
+    margin-top: 5px;
+    background-color: rgb(0, 124, 72);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
 main {
     padding: 10px;
     margin-top: 10px;
@@ -24,16 +34,35 @@ main {
     color: black;
     background-color: azure;
 }
+.headertext {
+    padding-left: 10px;
+}
+.linuximg {
+    border: rgb(0, 124, 72);
+    border-right: white;
+    border-style: dotted;
+}
 .sidebar {
     display: grid;
     align-content: space-around;
+    border: white;
+    border-right: #131313;
+    border-style: dotted;
 }
 .side {
     padding: 5px;
+    border: white;
+    border-bottom: #131313;
+    border-style: dotted;
 }
 .side:hover {
-    background-color: orangered;
+    background-color: rgb(255, 91, 31);
 }
 .content {
     margin: 10px;
+}
+footer {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
 }
